@@ -1,0 +1,446 @@
+body {
+  padding: 0px 31px 5px 31px;
+}
+
+.container{border:1px solid black }
+.topo { height: 320px;  }
+
+.menu li a{
+  color:#BF3631;
+  font-size: 1.2em;
+  
+}
+
+.navbar {
+ 
+  border-radius: 0px 0px 6px 6px;
+  margin-top:-1px;
+}
+ 
+}
+
+.nav li a {
+  color: #BF3631;
+  border-radius: 0px;
+}
+
+.topo { 
+background-image:url('../img/bg.png');  
+background-size:100% 320px;
+background-repeat:no-repeat;
+border-radius: 6px 6px 0px 0px;
+margin-top:0.4%;}
+
+.logo { opacity:0; }
+
+ h3{ text-align:center; }
+ 
+ .sioinfo {
+  font-size: 2.3em;
+  background-color:#FFFFAF;
+  opacity:0.6; color:#000000;
+  padding: 0px;
+  margin-top: 7%;
+ }
+ 
+ #area { padding: 20px;
+ border-radius: 8px;
+   border: 3px solid lightblue;
+ }
+
+ .area h4 { 
+text-transform: uppercase;
+color: #000;
+font-size: 1.3em;
+ } 
+ .area {
+	 
+	 font-size: 1.3em;
+	 
+ }
+ 
+ .form-control {
+	width: 80%;
+	height: 35px;
+
+ }
+ 
+ 
+ .conteudo-central {
+  margin-top: 6%;
+ }
+ 
+ .barra {display: inline; list-style:none;
+ 
+  }
+  .img-circle {width:150px; height:100px; valign: middle; }
+  
+  .left {float:left; }
+  /*controle de sessao informacao da pagina inicial.*/
+  
+  
+  .panel {
+      border: 1px solid lightblue; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover { 
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #000000 !important;
+      padding: 8px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+      height: 47px;
+  }
+  
+
+  .panel-footer .btn {
+      background-color: ;
+      color: #fff;
+  }
+  
+  .formaluno {
+	 
+	  margin-right: 30px;
+  }
+  
+  .classleft {float:left; margin-left:25px;}
+  
+  ul.a {
+    list-style-type: circle;
+	list-style-position:outside;
+}
+
+
+
+ul.b {
+    list-style-type: square;
+	
+}
+
+ul.c {
+	 list-style-type: circle;
+	list-style-position:inside;
+}
+
+ .foot {
+          background-color: #eee;
+      }
+.rodapeinfo {
+    margin-left: %;
+}  
+
+  .rodap{ background-color:#eee; padding: 10px; text-align: center;  border-radius: 10px; border-top: 2px solid #fff   }
+
+  .copyright {
+    font-size: 1.4em;
+      
+   
+  }
+
+
+
+
+
+
+  /* ==================ESTILO PARA AREA DE ALUNO =================================================*/
+  
+.aluno-info {
+  padding: 20px;
+  background-color:;
+  border-radius: 9px;
+  border: 3px solid lightblue;
+}
+
+
+
+    /* ###########################ESTILO PARA JORNAL ESCOLAR/NOTICIA E INFORMACAO######################*/
+  
+  .noticia {
+    font-size: 1.2em;
+ padding: 0px 0px 10px 15px;
+ text-align:justify;
+      line-height: 1.9em;
+      font-family: Arial;      
+
+ }
+ 
+
+.imagem_noticia {
+ margin:5px;
+    padding: 10px;
+  width: 80%;
+    height: 40%;
+ 
+
+}
+ 
+
+.titulo_noticia {
+    text-transform: uppercase;
+}
+ 
+ 
+     /* ================================ESTILO PARA PUBLICIDADE DAS UNIVRSIDADES ==================================================*/
+
+	 .pub {
+
+	 font-size: 1.8em;
+	 font-family: Time new roman;
+   }
+
+
+    /* ================================ESTILO PARA ... ==================================================*/
+	
+    /* ================================ESTILO PARA FORUM DE DISCUSSAO... ==================================================*/
+.class_disciplina {
+    width: 40%;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border: 1px solid lightblue;
+}
+.class_titulo {
+width: 95%;
+    height: 30px;
+    border: 2px solid lightblue;
+    border-radius: 3px;
+}
+
+
+.class_conteudo {
+    
+  width: 95%;
+    height: 350px;
+    border: 2px  solid lightblue;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+    /* ================================ESTILO PARA ... ==================================================*/
+	
+	
+    /* ================================ESTILO PARA ... ==================================================*/
+	
+	
+    /* ================================ESTILO PARA ... ==================================================*/
+	
+	
+    /* ================================ESTILO PARA BIBLIOTECA ==================================================*/
+  .livrodidatico {
+	  
+	  color:#337ab7;
+	  
+  }
+  
+  
+    .livrosgeneros    {
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+  .livrosgeneros ul li {
+	  color: #337ab7;
+	  margin: 6%;
+	  font-size: 2em;
+	  font-family: Time New Roman;
+	 
+	  
+  }
+  
+  .livrosgeneros ul {
+	  text-decoration: none;
+	  margin-left: 6%;
+	  margin-top:10%;
+  }
+  
+     /* ================================ESTILO PARA PARCEIROS=================================*/
+ .parceiro {
+float: left;
+width: 25%;
+height: 100px;
+background-color: #666;
+margin-left: 6%;
+ border-radius: 50%;
+ color: #ffffff;
+
+
+ }
+
+.parceiro:last-child {
+ 
+  background-color: #333;
+}
+
+.parceiro:first-child {
+  margin-left: 1%;
+  background-color: #888;
+}
+
+/* ================================ESTILO PARA ==================================================*/
+  
+  .forumlst { border: 1px solid black;
+  box-shadow:;
+  border-radius: 2%;}
+  
+  .radioescolar {
+	  padding: 2px;
+	  margin-left:10px;
+  }
+  
+  
+    /* ==######################## ESTILO PARA LEITURA JORNAL##################################==============*/
+  
+  /* ==============================ESTILO PARA ...=====================================*/
+  
+  @media screen and (max-width: 1100px) {
+ body { background-color:  }
+ .form-control {  margin-right:px; height: 35px;}
+ .conteudo-central { margin-top: 8%;}
+ .logo {
+	 }
+ 
+ .cores { visibility:hidden; }
+ 
+ }
+
+  
+@media screen and (max-width: 960px) and (min-width: 768px) {
+
+body { background-color: }
+.sioinfo {padding: 10px; margin-top: 10px;}
+ .topo { height:200px; }
+ .topo h1 { font-size: 1.3em;}
+ .form-control { float: left; width:20%; margin-right:px; height: 35px;}
+ .conteudo-central { margin-top: 10%;}
+ .pubnail { border: 1px solid #1CAFD4 }
+.areaa h4{ text-align: center; margin-left:-1%;} 
+.copyright { font-size: 1.1em;}
+ .rodapeinfo { margin-top: 6%;}
+.rodaesquerda {float: left; width: 45%; margin: 2.5%;}
+.parc { width: 100%; margin-left: %}
+ .parceiro {
+float: left;
+width: 25%;
+
+
+ }
+ .forumlista li { display: inline; margin-left:10px; line-height:12px;}
+ .forumlst { border: 1px solid black;}
+ 
+ }
+  
+
+ 
+
+
+ 
+
+
+ @media screen and (max-width: 768px) and (min-width: 630px) {
+
+body { background-color:; }
+.sioinfo {padding: 10px; margin-top: 10px;}
+ .topo { height:200px; }
+ .topo h1 { font-size: 1.3em;}
+ .form-control { float: left; width:80%; margin-right:3px; height: 35px;}
+ .pubnail { border: 1px solid #1CAFD4 }
+.areaa h4{ text-align: center; width: 100%; } 
+.copyright { font-size: 1.1em;}
+ .rodapeinfo { margin-top: 6%;}
+.rodaesquerda {float: left;width: 45%; margin: 2.2%;}
+
+ .forumlista li { display: inline; margin-left:10px; line-height:12px;}
+ .forumlst { border: 1px solid black;}
+ 
+ }
+
+ 
+
+@media screen and (max-width: 630px) and (min-width: 400px) {
+
+body { background-color:;}
+.sioinfo {padding: 10px; margin-top: 10px;}
+ .topo { height:200px; }
+ .topo h1 { font-size: 1.3em;}
+ .form-control { float: left; width:70%; margin-right:3px; height: 35px;}
+ .pubnail { border: 1px solid #1CAFD4 }
+
+.rodapeinfo { margin-left: 26%; margin-top: 6%;}
+.parc {margin-left: 10%;}
+.areaa h4{ text-align: center; }   
+.copyright { font-size: 1.1em;}
+
+
+ 
+ .forumlista li { display: inline; margin-left:10px; line-height:12px;}
+ .forumlst { border: 1px solid black;}
+ 
+ }
+
+
+
+ @media screen and (max-width: 400px) {
+
+  body { background-color: ;}
+
+.sioinfo { padding: 10px; margin-top: 3%;}
+.topo { height:200px;}
+.topo h1 { font-size: 1.3em;}
+.form-control { float: left; width:65%; margin-right:3px; height: 35px;
+ }
+ .pubnail { border: 1px solid #1CAFD4 }
+
+    .copyright { font-size: 1em;}
+ 
+ .forumlista li { display: inline; margin-left:10px; line-height:12px;
+}
+ 
+ 
+ .forumlst { border: 1px solid black;}
+ 
+ }
+
+
+
+
+ 
+ @media screen and (max-width: 350px) {
+  body {background-color:;}
+
+  .sioinfo { padding: 2px; margin-top: -1%; }
+ .topo { height:200px; }
+ .topo h1 { font-size: 1.3em;}
+.form-control { float: left; width:60%; margin-right:3px; height: 35px;
+ }
+ .pubnail { border: 1px solid #1CAFD4 }
+   .copyright { font-size: 0.8em;}
+ 
+ .forumlista li { display: inline; margin-left:10px; line-height:12px;
+}
+ 
+ 
+ .forumlst { border: 1px solid black;}
+ 
+ }
+  
+  
+  
+  
